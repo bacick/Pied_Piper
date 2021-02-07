@@ -1,57 +1,169 @@
-body{
+body {
     margin: 0;
-    padding: 0;    
+    padding: 0; 
+    font-family: Roboto, sans-serif;   
 }
 
-.body{
-    font-family: Roboto, sans-serif;
-    width: 1219px;
-    padding: 0 55Px;
-    margin: auto;
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
 }
 
-.header-container{
-    height: 84px;
-    background-color: #007765;
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
-    line-height: 28.13px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;       
+div {
+  box-sizing: border-box;
 }
 
- a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
-    line-height: 28.13px;
-        
+.container {
+  width: 1219px; 
+  margin: 0 auto;  
+  border: 1px solid red;  
 }
 
-.first-block{
-    box-sizing: border-box;
-    max-width: 1219px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 55px;
-    padding-right: 55px;
-  }
+.header { 
+  background-color: #007765;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28.13px;  
+  padding-bottom: 20px;
+}
+
+.logo {
+  float: left;
+  padding-top: 20px;
+  padding-left: 55px;
+}
+
+nav {
+  float: right;
+  margin-top: 5px;
+}
+
+ .menu {
+   display: block;
+   margin-right: 54px;
+ }
+
+ .menu li {
+   float: left;
+   display: block;
+   margin-right: 8px;
+   line-height: 28.13px;
+   font-size: 24px;
+   
+ }
+
+ .menu li a {
+   color:#fff;
+   text-decoration: none; 
+   
+ }
+
+ .jumbotron {
+   
+   background: url(img/image.png) no-repeat center top / cover;
+   padding-bottom: 160px;
+ }
+
+ .text-jumbotron{
+   color:#fff;
+   font-size: 72px;
+   line-height: 84.38px;
+   text-align: center;
+   padding-top: 150px;
+ }
+
+ .problem {
+   
+   background-color: #eee;
+   padding-top: 1px;
+   
+ }
+
+ .problem h2 {
+   color: #007765;
+   font-size: 64px;
+   line-height: 75px;
+   text-align: center;   
+   margin-top: 48px;
+   padding: 0;
+ }
+
+ .text-problem { 
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: center;
+  margin-bottom: 92px;
   
-  .hero {
-    padding-top: 128px;
-    padding-bottom: 128px;
-    background-image: url("img/image.png");
-    background-size: cover;
-    background-position: center center;
-  }
+ }
+
+ .text-problem p {
+   margin: 38px 0;
+   padding: 0;
+ }
+
+ .hero {
+    
+    background: url(img/image-9.png) no-repeat center top / cover;
+ }
+
+ .text-hero {
+   color:#fff;
+  font-size: 48px;
+  font-style: italic;
+  line-height: 56.25px;
+  text-align: center;
+  padding: 128px 163px;
+ }
+
+ .ppc {
+  height: 604px;
+  background-color: #fff;
+ }
+
+ .ppc h2 {
+  color: #007765;
+  font-size: 64px;  
+  line-height: 75px;
+  text-align: center;
+  margin: 0;
+ }
+
+ .ppc p {
+  font-size: 32px;  
+  line-height: 37.5px;
+  text-align: center;
+}
+
+.team {
+  height: 845px;
+  background-color: #eee;
+}
+
+.team h2 {
+  color: #007765;
+  font-size: 64px;  
+  line-height: 75px;
+  text-align: center;
+  margin: 0;
+}
+.staff {
+  display:flex;
+  justify-content: space-around;
   
-  .text-hero {
-    font-family: Roboto, sans-serif;    
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 84.38px;
-    text-align: center;
-    color: #fff;
-  }
+}
+
+.footer {
+  padding: 48px 339px 64px 339px;
+  background: #333;
+}
+
+.text-footer {
+  color: #fff;
+  font-size: 18px;  
+  line-height: 21px;
+  text-align: center;
+  
+}
